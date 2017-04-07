@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"jsbarcode",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "jsbarcode",
+    "description": "api documentation for [jsbarcode (v3.5.9)](https://github.com/lindell/JsBarcode#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-jsbarcode.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsbarcode) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsbarcode.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsbarcode)",
     "devDependencies": {
-        "jsbarcode": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "jsbarcode": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-jsbarcode",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-jsbarcode",
+    "keywords": [
+        "documentation",
+        "jsbarcode"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_jsbarcode.js",
+    "name": "npmdoc-jsbarcode",
+    "nameAlias": "npmdoc_jsbarcode",
+    "nameOriginal": "npmdoc-jsbarcode",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-jsbarcode"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
