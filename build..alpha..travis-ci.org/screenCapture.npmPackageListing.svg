@@ -1,138 +1,138 @@
 <svg height="2158" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="2158" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-07 04:09:58 +0000   941006 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-07 04:09:58 +0000     2996 byte  CONTRIBUTING.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-07 04:09:58 +0000     1083 byte  MIT-LICENSE.txt</tspan>
-<tspan x="10" y="74">  3.  2017-04-07 04:09:58 +0000     9092 byte  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-07 04:09:58 +0000      761 byte  automation/barcode-building.json</tspan>
-<tspan x="10" y="106">  5.  2017-04-07 04:09:58 +0000     3153 byte  automation/building.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-07 04:09:58 +0000      213 byte  automation/linting.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-07 04:09:58 +0000      831 byte  automation/misc.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-07 04:09:58 +0000     3583 byte  automation/releasing.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-07 04:09:58 +0000      164 byte  automation/settings.json</tspan>
-<tspan x="10" y="186"> 10.  2017-04-07 04:09:58 +0000      116 byte  automation/shared.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-07 04:09:58 +0000     6985 byte  bin/JsBarcode.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-07 04:09:58 +0000      426 byte  bin/barcodes/Barcode.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-07 04:09:58 +0000     7671 byte  bin/barcodes/CODE128/CODE128.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-07 04:09:58 +0000     1580 byte  bin/barcodes/CODE128/CODE128A.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-07 04:09:58 +0000     1580 byte  bin/barcodes/CODE128/CODE128B.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-07 04:09:58 +0000     1580 byte  bin/barcodes/CODE128/CODE128C.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-07 04:09:58 +0000     4117 byte  bin/barcodes/CODE128/CODE128_AUTO.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-07 04:09:58 +0000      822 byte  bin/barcodes/CODE128/index.js</tspan>
-<tspan x="10" y="330"> 19.  2017-04-07 04:09:58 +0000     3591 byte  bin/barcodes/CODE39/index.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-07 04:09:58 +0000     5137 byte  bin/barcodes/EAN_UPC/EAN13.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-07 04:09:58 +0000     2184 byte  bin/barcodes/EAN_UPC/EAN2.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-07 04:09:58 +0000     2529 byte  bin/barcodes/EAN_UPC/EAN5.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-07 04:09:58 +0000     2846 byte  bin/barcodes/EAN_UPC/EAN8.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-07 04:09:58 +0000     4465 byte  bin/barcodes/EAN_UPC/UPC.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-07 04:09:58 +0000     1787 byte  bin/barcodes/EAN_UPC/ean_encoder.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-07 04:09:58 +0000      804 byte  bin/barcodes/EAN_UPC/index.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-07 04:09:58 +0000     1933 byte  bin/barcodes/GenericBarcode/index.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-07 04:09:58 +0000     2611 byte  bin/barcodes/ITF/index.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-07 04:09:58 +0000     2946 byte  bin/barcodes/ITF14/index.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-07 04:09:58 +0000     2266 byte  bin/barcodes/MSI/MSI.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-07 04:09:58 +0000     1482 byte  bin/barcodes/MSI/MSI10.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-07 04:09:58 +0000     1542 byte  bin/barcodes/MSI/MSI1010.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-07 04:09:58 +0000     1482 byte  bin/barcodes/MSI/MSI11.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-07 04:09:58 +0000     1542 byte  bin/barcodes/MSI/MSI1110.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-07 04:09:58 +0000      632 byte  bin/barcodes/MSI/checksums.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-07 04:09:58 +0000      829 byte  bin/barcodes/MSI/index.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-07 04:09:58 +0000     2779 byte  bin/barcodes/codabar/index.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-07 04:09:58 +0000      931 byte  bin/barcodes/index.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-07 04:09:58 +0000      931 byte  bin/barcodes/index.tmp.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-07 04:09:58 +0000     2281 byte  bin/barcodes/pharmacode/index.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-07 04:09:58 +0000     1105 byte  bin/exceptions/ErrorHandler.js</tspan>
-<tspan x="10" y="698"> 42.  2017-04-07 04:09:58 +0000     2442 byte  bin/exceptions/exceptions.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-07 04:09:58 +0000      425 byte  bin/help/fixOptions.js</tspan>
-<tspan x="10" y="730"> 44.  2017-04-07 04:09:58 +0000     1215 byte  bin/help/getOptionsFromElement.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-07 04:09:58 +0000     3168 byte  bin/help/getRenderProperties.js</tspan>
-<tspan x="10" y="762"> 46.  2017-04-07 04:09:58 +0000      604 byte  bin/help/linearizeEncodings.js</tspan>
-<tspan x="10" y="778"> 47.  2017-04-07 04:09:58 +0000      410 byte  bin/help/merge.js</tspan>
-<tspan x="10" y="794"> 48.  2017-04-07 04:09:58 +0000      730 byte  bin/help/optionsFromStrings.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-07 04:09:58 +0000      510 byte  bin/options/defaults.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-07 04:09:58 +0000     4199 byte  bin/renderers/canvas.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-07 04:09:58 +0000      425 byte  bin/renderers/index.js</tspan>
-<tspan x="10" y="858"> 52.  2017-04-07 04:09:58 +0000     2780 byte  bin/renderers/shared.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-07 04:09:58 +0000     5017 byte  bin/renderers/svg.js</tspan>
-<tspan x="10" y="890"> 54.  2017-04-07 04:09:58 +0000      665 byte  bower.json</tspan>
-<tspan x="10" y="906"> 55.  2017-04-07 04:09:58 +0000   100145 byte  dist/JsBarcode.all.js</tspan>
-<tspan x="10" y="922"> 56.  2017-04-07 04:09:58 +0000    48021 byte  dist/JsBarcode.all.min.js</tspan>
-<tspan x="10" y="938"> 57.  2017-04-07 04:09:58 +0000    16868 byte  dist/barcodes/JsBarcode.codabar.min.js</tspan>
-<tspan x="10" y="954"> 58.  2017-04-07 04:09:58 +0000    23847 byte  dist/barcodes/JsBarcode.code128.min.js</tspan>
-<tspan x="10" y="970"> 59.  2017-04-07 04:09:58 +0000    17013 byte  dist/barcodes/JsBarcode.code39.min.js</tspan>
-<tspan x="10" y="986"> 60.  2017-04-07 04:09:58 +0000    25245 byte  dist/barcodes/JsBarcode.ean-upc.min.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-07 04:09:58 +0000    16805 byte  dist/barcodes/JsBarcode.itf-14.min.js</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-07 04:09:58 +0000    16649 byte  dist/barcodes/JsBarcode.itf.min.js</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-07 04:09:58 +0000    20726 byte  dist/barcodes/JsBarcode.msi.min.js</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-07 04:09:58 +0000    16399 byte  dist/barcodes/JsBarcode.pharmacode.min.js</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-07 04:09:58 +0000     1363 byte  example/index.html</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-07 04:09:58 +0000      510 byte  example/toBase64.html</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-07 04:09:58 +0000      381 byte  gulpfile.js</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-07 04:09:58 +0000     1782 byte  jsbarcode.d.ts</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-07 04:09:58 +0000     5956 byte  package.json</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-07 04:09:58 +0000     6242 byte  src/JsBarcode.js</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-07 04:09:58 +0000      156 byte  src/barcodes/Barcode.js</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-07 04:09:58 +0000     5782 byte  src/barcodes/CODE128/CODE128.js</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-07 04:09:58 +0000      259 byte  src/barcodes/CODE128/CODE128A.js</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-07 04:09:58 +0000      259 byte  src/barcodes/CODE128/CODE128B.js</tspan>
-<tspan x="10" y="1226"> 75.  2017-04-07 04:09:58 +0000      259 byte  src/barcodes/CODE128/CODE128C.js</tspan>
-<tspan x="10" y="1242"> 76.  2017-04-07 04:09:58 +0000     2692 byte  src/barcodes/CODE128/CODE128_AUTO.js</tspan>
-<tspan x="10" y="1258"> 77.  2017-04-07 04:09:58 +0000      204 byte  src/barcodes/CODE128/index.js</tspan>
-<tspan x="10" y="1274"> 78.  2017-04-07 04:09:58 +0000     2209 byte  src/barcodes/CODE39/index.js</tspan>
-<tspan x="10" y="1290"> 79.  2017-04-07 04:09:58 +0000     3537 byte  src/barcodes/EAN_UPC/EAN13.js</tspan>
-<tspan x="10" y="1306"> 80.  2017-04-07 04:09:58 +0000      730 byte  src/barcodes/EAN_UPC/EAN2.js</tspan>
-<tspan x="10" y="1322"> 81.  2017-04-07 04:09:58 +0000     1072 byte  src/barcodes/EAN_UPC/EAN5.js</tspan>
-<tspan x="10" y="1338"> 82.  2017-04-07 04:09:58 +0000     1410 byte  src/barcodes/EAN_UPC/EAN8.js</tspan>
-<tspan x="10" y="1354"> 83.  2017-04-07 04:09:58 +0000     2895 byte  src/barcodes/EAN_UPC/UPC.js</tspan>
-<tspan x="10" y="1370"> 84.  2017-04-07 04:09:58 +0000     1521 byte  src/barcodes/EAN_UPC/ean_encoder.js</tspan>
-<tspan x="10" y="1386"> 85.  2017-04-07 04:09:58 +0000      190 byte  src/barcodes/EAN_UPC/index.js</tspan>
-<tspan x="10" y="1402"> 86.  2017-04-07 04:09:58 +0000      463 byte  src/barcodes/GenericBarcode/index.js</tspan>
-<tspan x="10" y="1418"> 87.  2017-04-07 04:09:58 +0000     1158 byte  src/barcodes/ITF/index.js</tspan>
-<tspan x="10" y="1434"> 88.  2017-04-07 04:09:58 +0000     1473 byte  src/barcodes/ITF14/index.js</tspan>
-<tspan x="10" y="1450"> 89.  2017-04-07 04:09:58 +0000      909 byte  src/barcodes/MSI/MSI.js</tspan>
-<tspan x="10" y="1466"> 90.  2017-04-07 04:09:58 +0000      187 byte  src/barcodes/MSI/MSI10.js</tspan>
-<tspan x="10" y="1482"> 91.  2017-04-07 04:09:58 +0000      223 byte  src/barcodes/MSI/MSI1010.js</tspan>
-<tspan x="10" y="1498"> 92.  2017-04-07 04:09:58 +0000      187 byte  src/barcodes/MSI/MSI11.js</tspan>
-<tspan x="10" y="1514"> 93.  2017-04-07 04:09:58 +0000      230 byte  src/barcodes/MSI/MSI1110.js</tspan>
-<tspan x="10" y="1530"> 94.  2017-04-07 04:09:58 +0000      523 byte  src/barcodes/MSI/checksums.js</tspan>
-<tspan x="10" y="1546"> 95.  2017-04-07 04:09:58 +0000      211 byte  src/barcodes/MSI/index.js</tspan>
-<tspan x="10" y="1562"> 96.  2017-04-07 04:09:58 +0000     1300 byte  src/barcodes/codabar/index.js</tspan>
-<tspan x="10" y="1578"> 97.  2017-04-07 04:09:58 +0000      596 byte  src/barcodes/index.js</tspan>
-<tspan x="10" y="1594"> 98.  2017-04-07 04:09:58 +0000      815 byte  src/barcodes/pharmacode/index.js</tspan>
-<tspan x="10" y="1610"> 99.  2017-04-07 04:09:58 +0000      660 byte  src/exceptions/ErrorHandler.js</tspan>
-<tspan x="10" y="1626">100.  2017-04-07 04:09:58 +0000      674 byte  src/exceptions/exceptions.js</tspan>
-<tspan x="10" y="1642">101.  2017-04-07 04:09:58 +0000      342 byte  src/help/fixOptions.js</tspan>
-<tspan x="10" y="1658">102.  2017-04-07 04:09:58 +0000      856 byte  src/help/getOptionsFromElement.js</tspan>
-<tspan x="10" y="1674">103.  2017-04-07 04:09:58 +0000     2622 byte  src/help/getRenderProperties.js</tspan>
-<tspan x="10" y="1690">104.  2017-04-07 04:09:58 +0000      517 byte  src/help/linearizeEncodings.js</tspan>
-<tspan x="10" y="1706">105.  2017-04-07 04:09:58 +0000      326 byte  src/help/merge.js</tspan>
-<tspan x="10" y="1722">106.  2017-04-07 04:09:58 +0000      662 byte  src/help/optionsFromStrings.js</tspan>
-<tspan x="10" y="1738">107.  2017-04-07 04:09:58 +0000      422 byte  src/options/defaults.js</tspan>
-<tspan x="10" y="1754">108.  2017-04-07 04:09:58 +0000     3410 byte  src/renderers/canvas.js</tspan>
-<tspan x="10" y="1770">109.  2017-04-07 04:09:58 +0000      125 byte  src/renderers/index.js</tspan>
-<tspan x="10" y="1786">110.  2017-04-07 04:09:58 +0000     2190 byte  src/renderers/shared.js</tspan>
-<tspan x="10" y="1802">111.  2017-04-07 04:09:58 +0000     4331 byte  src/renderers/svg.js</tspan>
-<tspan x="10" y="1818">112.  2017-04-07 04:09:58 +0000      386 byte  test/browser/canvasTest.html</tspan>
-<tspan x="10" y="1834">113.  2017-04-07 04:09:58 +0000      623 byte  test/browser/canvasTest.js</tspan>
-<tspan x="10" y="1850">114.  2017-04-07 04:09:58 +0000   258648 byte  test/browser/help/jquery-2.2.3.js</tspan>
-<tspan x="10" y="1866">115.  2017-04-07 04:09:58 +0000     1551 byte  test/browser/initTest.html</tspan>
-<tspan x="10" y="1882">116.  2017-04-07 04:09:58 +0000      435 byte  test/browser/jQueryTest.html</tspan>
-<tspan x="10" y="1898">117.  2017-04-07 04:09:58 +0000      611 byte  test/browser/jQueryTest.js</tspan>
-<tspan x="10" y="1914">118.  2017-04-07 04:09:58 +0000      365 byte  test/browser/svgTest.html</tspan>
-<tspan x="10" y="1930">119.  2017-04-07 04:09:58 +0000      623 byte  test/browser/svgTest.js</tspan>
-<tspan x="10" y="1946">120.  2017-04-07 04:09:58 +0000      283 byte  test/browser/test.css</tspan>
-<tspan x="10" y="1962">121.  2017-04-07 04:09:58 +0000     1788 byte  test/browser/tests.js</tspan>
-<tspan x="10" y="1978">122.  2017-04-07 04:09:58 +0000   165076 byte  test/coverage.html</tspan>
-<tspan x="10" y="1994">123.  2017-04-07 04:09:58 +0000     4227 byte  test/node/CODE128.test.js</tspan>
-<tspan x="10" y="2010">124.  2017-04-07 04:09:58 +0000     1296 byte  test/node/CODE39.test.js</tspan>
-<tspan x="10" y="2026">125.  2017-04-07 04:09:58 +0000     6026 byte  test/node/EAN-UPC.test.js</tspan>
-<tspan x="10" y="2042">126.  2017-04-07 04:09:58 +0000     2261 byte  test/node/ITF-14.test.js</tspan>
-<tspan x="10" y="2058">127.  2017-04-07 04:09:58 +0000      987 byte  test/node/ITF.test.js</tspan>
-<tspan x="10" y="2074">128.  2017-04-07 04:09:58 +0000     4002 byte  test/node/JsBarcode.test.js</tspan>
-<tspan x="10" y="2090">129.  2017-04-07 04:09:58 +0000     2475 byte  test/node/MSI.test.js</tspan>
-<tspan x="10" y="2106">130.  2017-04-07 04:09:58 +0000     2334 byte  test/node/codabar.test.js</tspan>
-<tspan x="10" y="2122">131.  2017-04-07 04:09:58 +0000     1331 byte  test/node/help/help.js</tspan>
-<tspan x="10" y="2138">132.  2017-04-07 04:09:58 +0000     1161 byte  test/node/pharmacode.test.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-07 04:11:29 +0000   941006 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 04:11:29 +0000     2996 byte  CONTRIBUTING.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 04:11:29 +0000     1083 byte  MIT-LICENSE.txt</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 04:11:29 +0000     9092 byte  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 04:11:29 +0000      761 byte  automation/barcode-building.json</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 04:11:29 +0000     3153 byte  automation/building.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 04:11:29 +0000      213 byte  automation/linting.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-07 04:11:29 +0000      831 byte  automation/misc.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-07 04:11:29 +0000     3583 byte  automation/releasing.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-07 04:11:29 +0000      164 byte  automation/settings.json</tspan>
+<tspan x="10" y="186"> 10.  2017-04-07 04:11:29 +0000      116 byte  automation/shared.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-07 04:11:29 +0000     6985 byte  bin/JsBarcode.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-07 04:11:29 +0000      426 byte  bin/barcodes/Barcode.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-07 04:11:29 +0000     7671 byte  bin/barcodes/CODE128/CODE128.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-07 04:11:29 +0000     1580 byte  bin/barcodes/CODE128/CODE128A.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-07 04:11:29 +0000     1580 byte  bin/barcodes/CODE128/CODE128B.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-07 04:11:29 +0000     1580 byte  bin/barcodes/CODE128/CODE128C.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-07 04:11:29 +0000     4117 byte  bin/barcodes/CODE128/CODE128_AUTO.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-07 04:11:29 +0000      822 byte  bin/barcodes/CODE128/index.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-07 04:11:29 +0000     3591 byte  bin/barcodes/CODE39/index.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-07 04:11:29 +0000     5137 byte  bin/barcodes/EAN_UPC/EAN13.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-07 04:11:29 +0000     2184 byte  bin/barcodes/EAN_UPC/EAN2.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-07 04:11:29 +0000     2529 byte  bin/barcodes/EAN_UPC/EAN5.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-07 04:11:29 +0000     2846 byte  bin/barcodes/EAN_UPC/EAN8.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-07 04:11:29 +0000     4465 byte  bin/barcodes/EAN_UPC/UPC.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-07 04:11:29 +0000     1787 byte  bin/barcodes/EAN_UPC/ean_encoder.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-07 04:11:29 +0000      804 byte  bin/barcodes/EAN_UPC/index.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-07 04:11:29 +0000     1933 byte  bin/barcodes/GenericBarcode/index.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-07 04:11:29 +0000     2611 byte  bin/barcodes/ITF/index.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-07 04:11:29 +0000     2946 byte  bin/barcodes/ITF14/index.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-07 04:11:29 +0000     2266 byte  bin/barcodes/MSI/MSI.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-07 04:11:29 +0000     1482 byte  bin/barcodes/MSI/MSI10.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-07 04:11:29 +0000     1542 byte  bin/barcodes/MSI/MSI1010.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-07 04:11:29 +0000     1482 byte  bin/barcodes/MSI/MSI11.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-07 04:11:29 +0000     1542 byte  bin/barcodes/MSI/MSI1110.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-07 04:11:29 +0000      632 byte  bin/barcodes/MSI/checksums.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-07 04:11:29 +0000      829 byte  bin/barcodes/MSI/index.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-07 04:11:29 +0000     2779 byte  bin/barcodes/codabar/index.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-07 04:11:29 +0000      931 byte  bin/barcodes/index.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-07 04:11:29 +0000      931 byte  bin/barcodes/index.tmp.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-07 04:11:29 +0000     2281 byte  bin/barcodes/pharmacode/index.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-07 04:11:29 +0000     1105 byte  bin/exceptions/ErrorHandler.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-07 04:11:29 +0000     2442 byte  bin/exceptions/exceptions.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-07 04:11:29 +0000      425 byte  bin/help/fixOptions.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-07 04:11:29 +0000     1215 byte  bin/help/getOptionsFromElement.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-07 04:11:29 +0000     3168 byte  bin/help/getRenderProperties.js</tspan>
+<tspan x="10" y="762"> 46.  2017-04-07 04:11:29 +0000      604 byte  bin/help/linearizeEncodings.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-07 04:11:29 +0000      410 byte  bin/help/merge.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-07 04:11:29 +0000      730 byte  bin/help/optionsFromStrings.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-07 04:11:29 +0000      510 byte  bin/options/defaults.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-07 04:11:29 +0000     4199 byte  bin/renderers/canvas.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-07 04:11:29 +0000      425 byte  bin/renderers/index.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-07 04:11:29 +0000     2780 byte  bin/renderers/shared.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-07 04:11:29 +0000     5017 byte  bin/renderers/svg.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-07 04:11:29 +0000      665 byte  bower.json</tspan>
+<tspan x="10" y="906"> 55.  2017-04-07 04:11:29 +0000   100145 byte  dist/JsBarcode.all.js</tspan>
+<tspan x="10" y="922"> 56.  2017-04-07 04:11:29 +0000    48021 byte  dist/JsBarcode.all.min.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-07 04:11:29 +0000    16868 byte  dist/barcodes/JsBarcode.codabar.min.js</tspan>
+<tspan x="10" y="954"> 58.  2017-04-07 04:11:29 +0000    23847 byte  dist/barcodes/JsBarcode.code128.min.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-07 04:11:29 +0000    17013 byte  dist/barcodes/JsBarcode.code39.min.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-07 04:11:29 +0000    25245 byte  dist/barcodes/JsBarcode.ean-upc.min.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-07 04:11:29 +0000    16805 byte  dist/barcodes/JsBarcode.itf-14.min.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-07 04:11:29 +0000    16649 byte  dist/barcodes/JsBarcode.itf.min.js</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-07 04:11:29 +0000    20726 byte  dist/barcodes/JsBarcode.msi.min.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-07 04:11:29 +0000    16399 byte  dist/barcodes/JsBarcode.pharmacode.min.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-07 04:11:29 +0000     1363 byte  example/index.html</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-07 04:11:29 +0000      510 byte  example/toBase64.html</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-07 04:11:29 +0000      381 byte  gulpfile.js</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-07 04:11:29 +0000     1782 byte  jsbarcode.d.ts</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-07 04:11:29 +0000     5956 byte  package.json</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-07 04:11:29 +0000     6242 byte  src/JsBarcode.js</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-07 04:11:29 +0000      156 byte  src/barcodes/Barcode.js</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-07 04:11:29 +0000     5782 byte  src/barcodes/CODE128/CODE128.js</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-07 04:11:29 +0000      259 byte  src/barcodes/CODE128/CODE128A.js</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-07 04:11:29 +0000      259 byte  src/barcodes/CODE128/CODE128B.js</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-07 04:11:29 +0000      259 byte  src/barcodes/CODE128/CODE128C.js</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-07 04:11:29 +0000     2692 byte  src/barcodes/CODE128/CODE128_AUTO.js</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-07 04:11:29 +0000      204 byte  src/barcodes/CODE128/index.js</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-07 04:11:29 +0000     2209 byte  src/barcodes/CODE39/index.js</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-07 04:11:29 +0000     3537 byte  src/barcodes/EAN_UPC/EAN13.js</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-07 04:11:29 +0000      730 byte  src/barcodes/EAN_UPC/EAN2.js</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-07 04:11:29 +0000     1072 byte  src/barcodes/EAN_UPC/EAN5.js</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-07 04:11:29 +0000     1410 byte  src/barcodes/EAN_UPC/EAN8.js</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-07 04:11:29 +0000     2895 byte  src/barcodes/EAN_UPC/UPC.js</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-07 04:11:29 +0000     1521 byte  src/barcodes/EAN_UPC/ean_encoder.js</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-07 04:11:29 +0000      190 byte  src/barcodes/EAN_UPC/index.js</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-07 04:11:29 +0000      463 byte  src/barcodes/GenericBarcode/index.js</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-07 04:11:29 +0000     1158 byte  src/barcodes/ITF/index.js</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-07 04:11:29 +0000     1473 byte  src/barcodes/ITF14/index.js</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-07 04:11:29 +0000      909 byte  src/barcodes/MSI/MSI.js</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-07 04:11:29 +0000      187 byte  src/barcodes/MSI/MSI10.js</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-07 04:11:29 +0000      223 byte  src/barcodes/MSI/MSI1010.js</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-07 04:11:29 +0000      187 byte  src/barcodes/MSI/MSI11.js</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-07 04:11:29 +0000      230 byte  src/barcodes/MSI/MSI1110.js</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-07 04:11:29 +0000      523 byte  src/barcodes/MSI/checksums.js</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-07 04:11:29 +0000      211 byte  src/barcodes/MSI/index.js</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-07 04:11:29 +0000     1300 byte  src/barcodes/codabar/index.js</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-07 04:11:29 +0000      596 byte  src/barcodes/index.js</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-07 04:11:29 +0000      815 byte  src/barcodes/pharmacode/index.js</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-07 04:11:29 +0000      660 byte  src/exceptions/ErrorHandler.js</tspan>
+<tspan x="10" y="1626">100.  2017-04-07 04:11:29 +0000      674 byte  src/exceptions/exceptions.js</tspan>
+<tspan x="10" y="1642">101.  2017-04-07 04:11:29 +0000      342 byte  src/help/fixOptions.js</tspan>
+<tspan x="10" y="1658">102.  2017-04-07 04:11:29 +0000      856 byte  src/help/getOptionsFromElement.js</tspan>
+<tspan x="10" y="1674">103.  2017-04-07 04:11:29 +0000     2622 byte  src/help/getRenderProperties.js</tspan>
+<tspan x="10" y="1690">104.  2017-04-07 04:11:29 +0000      517 byte  src/help/linearizeEncodings.js</tspan>
+<tspan x="10" y="1706">105.  2017-04-07 04:11:29 +0000      326 byte  src/help/merge.js</tspan>
+<tspan x="10" y="1722">106.  2017-04-07 04:11:29 +0000      662 byte  src/help/optionsFromStrings.js</tspan>
+<tspan x="10" y="1738">107.  2017-04-07 04:11:29 +0000      422 byte  src/options/defaults.js</tspan>
+<tspan x="10" y="1754">108.  2017-04-07 04:11:29 +0000     3410 byte  src/renderers/canvas.js</tspan>
+<tspan x="10" y="1770">109.  2017-04-07 04:11:29 +0000      125 byte  src/renderers/index.js</tspan>
+<tspan x="10" y="1786">110.  2017-04-07 04:11:29 +0000     2190 byte  src/renderers/shared.js</tspan>
+<tspan x="10" y="1802">111.  2017-04-07 04:11:29 +0000     4331 byte  src/renderers/svg.js</tspan>
+<tspan x="10" y="1818">112.  2017-04-07 04:11:29 +0000      386 byte  test/browser/canvasTest.html</tspan>
+<tspan x="10" y="1834">113.  2017-04-07 04:11:29 +0000      623 byte  test/browser/canvasTest.js</tspan>
+<tspan x="10" y="1850">114.  2017-04-07 04:11:29 +0000   258648 byte  test/browser/help/jquery-2.2.3.js</tspan>
+<tspan x="10" y="1866">115.  2017-04-07 04:11:29 +0000     1551 byte  test/browser/initTest.html</tspan>
+<tspan x="10" y="1882">116.  2017-04-07 04:11:29 +0000      435 byte  test/browser/jQueryTest.html</tspan>
+<tspan x="10" y="1898">117.  2017-04-07 04:11:29 +0000      611 byte  test/browser/jQueryTest.js</tspan>
+<tspan x="10" y="1914">118.  2017-04-07 04:11:29 +0000      365 byte  test/browser/svgTest.html</tspan>
+<tspan x="10" y="1930">119.  2017-04-07 04:11:29 +0000      623 byte  test/browser/svgTest.js</tspan>
+<tspan x="10" y="1946">120.  2017-04-07 04:11:29 +0000      283 byte  test/browser/test.css</tspan>
+<tspan x="10" y="1962">121.  2017-04-07 04:11:29 +0000     1788 byte  test/browser/tests.js</tspan>
+<tspan x="10" y="1978">122.  2017-04-07 04:11:29 +0000   165076 byte  test/coverage.html</tspan>
+<tspan x="10" y="1994">123.  2017-04-07 04:11:29 +0000     4227 byte  test/node/CODE128.test.js</tspan>
+<tspan x="10" y="2010">124.  2017-04-07 04:11:29 +0000     1296 byte  test/node/CODE39.test.js</tspan>
+<tspan x="10" y="2026">125.  2017-04-07 04:11:29 +0000     6026 byte  test/node/EAN-UPC.test.js</tspan>
+<tspan x="10" y="2042">126.  2017-04-07 04:11:29 +0000     2261 byte  test/node/ITF-14.test.js</tspan>
+<tspan x="10" y="2058">127.  2017-04-07 04:11:29 +0000      987 byte  test/node/ITF.test.js</tspan>
+<tspan x="10" y="2074">128.  2017-04-07 04:11:29 +0000     4002 byte  test/node/JsBarcode.test.js</tspan>
+<tspan x="10" y="2090">129.  2017-04-07 04:11:29 +0000     2475 byte  test/node/MSI.test.js</tspan>
+<tspan x="10" y="2106">130.  2017-04-07 04:11:29 +0000     2334 byte  test/node/codabar.test.js</tspan>
+<tspan x="10" y="2122">131.  2017-04-07 04:11:29 +0000     1331 byte  test/node/help/help.js</tspan>
+<tspan x="10" y="2138">132.  2017-04-07 04:11:29 +0000     1161 byte  test/node/pharmacode.test.js</tspan>
 </text>
 </svg>
