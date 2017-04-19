@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/lindell/JsBarcode#readme"
-
-    >jsbarcode (v3.6.0)</a>
+    <a href="https://github.com/lindell/JsBarcode#readme">jsbarcode (v3.6.0)</a>
 </h1>
 <h4>JsBarcode is a customizable barcode generator with support for multiple barcode formats.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.jsbarcode">module jsbarcode</a><ol>
 
@@ -147,8 +140,8 @@
     <li>description and source-code<pre class="apidocCodePre">function JsBarcode(element, text, options) {
 	var api = new API();
 
-	if (typeof element === &#x22;undefined&#x22;) {
-		throw Error(&#x22;No element to render on was provided.&#x22;);
+	if (typeof element === "undefined") {
+		throw Error("No element to render on was provided.");
 	}
 
 	// Variables that will be pased through the API calls
@@ -158,7 +151,7 @@
 	api._errorHandler = new _ErrorHandler2.default(api);
 
 	// If text is set, use the simple syntax (render the barcode directly)
-	if (typeof text !== &#x22;undefined&#x22;) {
+	if (typeof text !== "undefined") {
 		options = options || {};
 
 		if (!options.format) {
@@ -185,8 +178,8 @@
     <li>description and source-code<pre class="apidocCodePre">function JsBarcode(element, text, options) {
 	var api = new API();
 
-	if (typeof element === &#x22;undefined&#x22;) {
-		throw Error(&#x22;No element to render on was provided.&#x22;);
+	if (typeof element === "undefined") {
+		throw Error("No element to render on was provided.");
 	}
 
 	// Variables that will be pased through the API calls
@@ -196,7 +189,7 @@
 	api._errorHandler = new _ErrorHandler2.default(api);
 
 	// If text is set, use the simple syntax (render the barcode directly)
-	if (typeof text !== &#x22;undefined&#x22;) {
+	if (typeof text !== "undefined") {
 		options = options || {};
 
 		if (!options.format) {
@@ -214,9 +207,9 @@
 
 #### Simple example:
 ````javascript
-JsBarcode(&#x22;#barcode&#x22;, &#x22;Hi!&#x22;);
+JsBarcode("#barcode", "Hi!");
 // or with jQuery
-$(&#x22;#barcode&#x22;).<span class="apidocCodeKeywordSpan">JsBarcode</span>(&#x22;Hi!&#x22;);
+$("#barcode").<span class="apidocCodeKeywordSpan">JsBarcode</span>("Hi!");
 ````
 
 ##### Result:
@@ -261,8 +254,8 @@ $(&#x22;#barcode&#x22;).<span class="apidocCodeKeywordSpan">JsBarcode</span>(&#x
     <li>description and source-code<pre class="apidocCodePre">function JsBarcode(element, text, options) {
 	var api = new API();
 
-	if (typeof element === &#x22;undefined&#x22;) {
-		throw Error(&#x22;No element to render on was provided.&#x22;);
+	if (typeof element === "undefined") {
+		throw Error("No element to render on was provided.");
 	}
 
 	// Variables that will be pased through the API calls
@@ -272,7 +265,7 @@ $(&#x22;#barcode&#x22;).<span class="apidocCodeKeywordSpan">JsBarcode</span>(&#x
 	api._errorHandler = new _ErrorHandler2.default(api);
 
 	// If text is set, use the simple syntax (render the barcode directly)
-	if (typeof text !== &#x22;undefined&#x22;) {
+	if (typeof text !== "undefined") {
 		options = options || {};
 
 		if (!options.format) {
@@ -290,9 +283,9 @@ $(&#x22;#barcode&#x22;).<span class="apidocCodeKeywordSpan">JsBarcode</span>(&#x
 
 #### Simple example:
 ````javascript
-JsBarcode(&#x22;#barcode&#x22;, &#x22;Hi!&#x22;);
+JsBarcode("#barcode", "Hi!");
 // or with jQuery
-$(&#x22;#barcode&#x22;).<span class="apidocCodeKeywordSpan">JsBarcode</span>(&#x22;Hi!&#x22;);
+$("#barcode").<span class="apidocCodeKeywordSpan">JsBarcode</span>("Hi!");
 ````
 
 ##### Result:
@@ -333,13 +326,13 @@ $(&#x22;#barcode&#x22;).<span class="apidocCodeKeywordSpan">JsBarcode</span>(&#x
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">minifiedFilename = function (name){
-	return &#x22;JsBarcode.&#x22; + name + &#x22;.min.js&#x22;;
+	return "JsBarcode." + name + ".min.js";
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
 function webpackMin(name, dest){
-	dest = dest || &#x27;./&#x27;;
-	return gulp.src(&#x27;bin/JsBarcode.js&#x27;)
+	dest = dest || './';
+	return gulp.src('bin/JsBarcode.js')
 		.pipe(gulpWebpack(
 			{
 				output: {
@@ -348,8 +341,8 @@ function webpackMin(name, dest){
 				plugins: [new webpack.optimize.UglifyJsPlugin()]
 			}
 		, webpack))
-		.pipe(header(settings.banner, require(settings.baseDir + &#x27;package.json&#x27;) ))
-		.pipe(gulp.dest(&#x22;dist/&#x22; + dest));
+		.pipe(header(settings.banner, require(settings.baseDir + 'package.json') ))
+		.pipe(gulp.dest("dist/" + dest));
 }
 ...</pre></li>
     </ul>
@@ -363,3 +356,4 @@ function webpackMin(name, dest){
     ]
 </div>
 </div>
+</body></html>

@@ -51,7 +51,7 @@
 
         href="https://github.com/lindell/JsBarcode#readme"
 
-    >jsbarcode (v3.5.9)</a>
+    >jsbarcode (v3.6.0)</a>
 </h1>
 <h4>JsBarcode is a customizable barcode generator with support for multiple barcode formats.</h4>
 <div class="apidocSectionDiv"><a
@@ -60,6 +60,24 @@
 ><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.jsbarcode">module jsbarcode</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jsbarcode.jsbarcode">
+            function <span class="apidocSignatureSpan"></span>jsbarcode
+            <span class="apidocSignatureSpan">(element, text, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jsbarcode.JsBarcode">
+            function <span class="apidocSignatureSpan">jsbarcode.</span>JsBarcode
+            <span class="apidocSignatureSpan">(element, text, options)</span>
+            </a>
+
+        </li>
 
         <li>
 
@@ -73,6 +91,28 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">jsbarcode.</span>shared</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.jsbarcode.JsBarcode">module jsbarcode.JsBarcode</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jsbarcode.JsBarcode.JsBarcode">
+            function <span class="apidocSignatureSpan">jsbarcode.</span>JsBarcode
+            <span class="apidocSignatureSpan">(element, text, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jsbarcode.JsBarcode.getModule">
+            function <span class="apidocSignatureSpan">jsbarcode.JsBarcode.</span>getModule
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
 
         </li>
 
@@ -98,6 +138,98 @@
 
 
     <h2>
+        <a href="#apidoc.element.jsbarcode.jsbarcode" id="apidoc.element.jsbarcode.jsbarcode">
+        function <span class="apidocSignatureSpan"></span>jsbarcode
+        <span class="apidocSignatureSpan">(element, text, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function JsBarcode(element, text, options) {
+	var api = new API();
+
+	if (typeof element === &#x22;undefined&#x22;) {
+		throw Error(&#x22;No element to render on was provided.&#x22;);
+	}
+
+	// Variables that will be pased through the API calls
+	api._renderProperties = (0, _getRenderProperties2.default)(element);
+	api._encodings = [];
+	api._options = _defaults2.default;
+	api._errorHandler = new _ErrorHandler2.default(api);
+
+	// If text is set, use the simple syntax (render the barcode directly)
+	if (typeof text !== &#x22;undefined&#x22;) {
+		options = options || {};
+
+		if (!options.format) {
+			options.format = autoSelectBarcode();
+		}
+
+		api.options(options)[options.format](text, options).render();
+	}
+
+	return api;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jsbarcode.JsBarcode" id="apidoc.element.jsbarcode.JsBarcode">
+        function <span class="apidocSignatureSpan">jsbarcode.</span>JsBarcode
+        <span class="apidocSignatureSpan">(element, text, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function JsBarcode(element, text, options) {
+	var api = new API();
+
+	if (typeof element === &#x22;undefined&#x22;) {
+		throw Error(&#x22;No element to render on was provided.&#x22;);
+	}
+
+	// Variables that will be pased through the API calls
+	api._renderProperties = (0, _getRenderProperties2.default)(element);
+	api._encodings = [];
+	api._options = _defaults2.default;
+	api._errorHandler = new _ErrorHandler2.default(api);
+
+	// If text is set, use the simple syntax (render the barcode directly)
+	if (typeof text !== &#x22;undefined&#x22;) {
+		options = options || {};
+
+		if (!options.format) {
+			options.format = autoSelectBarcode();
+		}
+
+		api.options(options)[options.format](text, options).render();
+	}
+
+	return api;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+#### Simple example:
+````javascript
+JsBarcode(&#x22;#barcode&#x22;, &#x22;Hi!&#x22;);
+// or with jQuery
+$(&#x22;#barcode&#x22;).<span class="apidocCodeKeywordSpan">JsBarcode</span>(&#x22;Hi!&#x22;);
+````
+
+##### Result:
+![Result](http://imgh.us/test_208.svg)
+
+
+#### Example with options:
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.jsbarcode.getModule" id="apidoc.element.jsbarcode.getModule">
         function <span class="apidocSignatureSpan">jsbarcode.</span>getModule
         <span class="apidocSignatureSpan">(name)</span>
@@ -116,6 +248,80 @@
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.jsbarcode.JsBarcode" id="apidoc.module.jsbarcode.JsBarcode">module jsbarcode.JsBarcode</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.jsbarcode.JsBarcode.JsBarcode" id="apidoc.element.jsbarcode.JsBarcode.JsBarcode">
+        function <span class="apidocSignatureSpan">jsbarcode.</span>JsBarcode
+        <span class="apidocSignatureSpan">(element, text, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function JsBarcode(element, text, options) {
+	var api = new API();
+
+	if (typeof element === &#x22;undefined&#x22;) {
+		throw Error(&#x22;No element to render on was provided.&#x22;);
+	}
+
+	// Variables that will be pased through the API calls
+	api._renderProperties = (0, _getRenderProperties2.default)(element);
+	api._encodings = [];
+	api._options = _defaults2.default;
+	api._errorHandler = new _ErrorHandler2.default(api);
+
+	// If text is set, use the simple syntax (render the barcode directly)
+	if (typeof text !== &#x22;undefined&#x22;) {
+		options = options || {};
+
+		if (!options.format) {
+			options.format = autoSelectBarcode();
+		}
+
+		api.options(options)[options.format](text, options).render();
+	}
+
+	return api;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+#### Simple example:
+````javascript
+JsBarcode(&#x22;#barcode&#x22;, &#x22;Hi!&#x22;);
+// or with jQuery
+$(&#x22;#barcode&#x22;).<span class="apidocCodeKeywordSpan">JsBarcode</span>(&#x22;Hi!&#x22;);
+````
+
+##### Result:
+![Result](http://imgh.us/test_208.svg)
+
+
+#### Example with options:
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jsbarcode.JsBarcode.getModule" id="apidoc.element.jsbarcode.JsBarcode.getModule">
+        function <span class="apidocSignatureSpan">jsbarcode.JsBarcode.</span>getModule
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getModule = function (name) {
+	return _barcodes2.default[name];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.jsbarcode.shared" id="apidoc.module.jsbarcode.shared">module jsbarcode.shared</a></h1>
 
 
@@ -129,7 +335,23 @@
     <li>description and source-code<pre class="apidocCodePre">minifiedFilename = function (name){
 	return &#x22;JsBarcode.&#x22; + name + &#x22;.min.js&#x22;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+function webpackMin(name, dest){
+	dest = dest || &#x27;./&#x27;;
+	return gulp.src(&#x27;bin/JsBarcode.js&#x27;)
+		.pipe(gulpWebpack(
+			{
+				output: {
+					filename: shared.<span class="apidocCodeKeywordSpan">minifiedFilename</span>(name)
+				},
+				plugins: [new webpack.optimize.UglifyJsPlugin()]
+			}
+		, webpack))
+		.pipe(header(settings.banner, require(settings.baseDir + &#x27;package.json&#x27;) ))
+		.pipe(gulp.dest(&#x22;dist/&#x22; + dest));
+}
+...</pre></li>
     </ul>
 
 
