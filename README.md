@@ -1,9 +1,14 @@
-# api documentation for  [jsbarcode (v3.5.9)](https://github.com/lindell/JsBarcode#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsbarcode.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsbarcode) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsbarcode.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsbarcode)
+# npmdoc-jsbarcode
+
+#### api documentation for  [jsbarcode (v3.6.0)](https://github.com/lindell/JsBarcode#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsbarcode.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsbarcode) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsbarcode.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsbarcode)
+
 #### JsBarcode is a customizable barcode generator with support for multiple barcode formats.
 
-[![NPM](https://nodei.co/npm/jsbarcode.png?downloads=true)](https://www.npmjs.com/package/jsbarcode)
+[![NPM](https://nodei.co/npm/jsbarcode.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jsbarcode)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-jsbarcode/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-jsbarcode_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jsbarcode/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-jsbarcode/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-jsbarcode/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-jsbarcode/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jsbarcode/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-jsbarcode/build/screenCapture.npmPackageListing.svg)
 
@@ -65,6 +70,7 @@
         "defaults.js": "bin/options/defaults.js",
         "renderers": "bin/renderers",
         "canvas.js": "bin/renderers/canvas.js",
+        "object.js": "bin/renderers/object.js",
         "shared.js": "bin/renderers/shared.js",
         "svg.js": "bin/renderers/svg.js"
     },
@@ -121,10 +127,10 @@
         "bin": "bin"
     },
     "dist": {
-        "shasum": "337e15a1bb5ce6fc0828f245d32e4148442a1c2a",
-        "tarball": "https://registry.npmjs.org/jsbarcode/-/jsbarcode-3.5.9.tgz"
+        "shasum": "507b4fb02d9545ddd71aa173e71e92d7805d996f",
+        "tarball": "https://registry.npmjs.org/jsbarcode/-/jsbarcode-3.6.0.tgz"
     },
-    "gitHead": "b6b6af25d013e2c0767bb5febe267205a61f85be",
+    "gitHead": "c71f5a5e40b240ebbde82c162dfa737d2e7aaa23",
     "homepage": "https://github.com/lindell/JsBarcode#readme",
     "keywords": [
         "barcode",
@@ -140,13 +146,11 @@
     "main": "./bin/JsBarcode.js",
     "maintainers": [
         {
-            "name": "lindell",
-            "email": "johan@lindell.me"
+            "name": "lindell"
         }
     ],
     "name": "jsbarcode",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/lindell/JsBarcode.git"
@@ -158,51 +162,8 @@
         "test": "gulp babel && node_modules/mocha/bin/mocha test/node/ -R spec"
     },
     "typings": "./jsbarcode.d.ts",
-    "version": "3.5.9"
+    "version": "3.6.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module jsbarcode](#apidoc.module.jsbarcode)
-1.  [function <span class="apidocSignatureSpan">jsbarcode.</span>getModule (name)](#apidoc.element.jsbarcode.getModule)
-1.  object <span class="apidocSignatureSpan">jsbarcode.</span>shared
-
-#### [module jsbarcode.shared](#apidoc.module.jsbarcode.shared)
-1.  [function <span class="apidocSignatureSpan">jsbarcode.shared.</span>minifiedFilename (name)](#apidoc.element.jsbarcode.shared.minifiedFilename)
-
-
-
-# <a name="apidoc.module.jsbarcode"></a>[module jsbarcode](#apidoc.module.jsbarcode)
-
-#### <a name="apidoc.element.jsbarcode.getModule"></a>[function <span class="apidocSignatureSpan">jsbarcode.</span>getModule (name)](#apidoc.element.jsbarcode.getModule)
-- description and source-code
-```javascript
-getModule = function (name) {
-	return _barcodes2.default[name];
-}
-```
-- example usage
-```shell
-n/a
-```
-
-
-
-# <a name="apidoc.module.jsbarcode.shared"></a>[module jsbarcode.shared](#apidoc.module.jsbarcode.shared)
-
-#### <a name="apidoc.element.jsbarcode.shared.minifiedFilename"></a>[function <span class="apidocSignatureSpan">jsbarcode.shared.</span>minifiedFilename (name)](#apidoc.element.jsbarcode.shared.minifiedFilename)
-- description and source-code
-```javascript
-minifiedFilename = function (name){
-	return "JsBarcode." + name + ".min.js";
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
